@@ -294,7 +294,7 @@ specialTask: {
 },
 ```
 
-必须同步更新的文件：`zh-CN.ts`, `en-US.ts`, `zh-TW.ts`, `ja-JP.ts`, `ko-KR.ts`。
+必须同步更新的文件：`zh-CN.ts`, `en-US.ts`, `zh-TW.ts`, `ja-JP.ts`, `ko-KR.ts`, `ru-RU.ts`。
 
 ## 命名约定速查
 

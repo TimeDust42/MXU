@@ -19,6 +19,7 @@ export const SUPPORTED_LANGUAGES = {
   'en-US': { interfaceKey: 'en_us' },
   'ja-JP': { interfaceKey: 'ja_jp' },
   'ko-KR': { interfaceKey: 'ko_kr' },
+  'ru-RU': { interfaceKey: 'ru_ru' },
 } as const;
 
 export type SupportedLanguage = keyof typeof SUPPORTED_LANGUAGES;
@@ -84,6 +85,7 @@ const resources = {
   'en-US': { translation: enUS },
   'ja-JP': { translation: jaJP },
   'ko-KR': { translation: koKR },
+  'ru-RU': { translation: ruRU }
 };
 
 // 获取系统语言或存储的语言偏好
