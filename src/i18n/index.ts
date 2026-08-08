@@ -13,7 +13,6 @@ import koKR from './locales/ko-KR';
  * - interfaceKey: interface.json 翻译文件中使用的语言键（ProjectInterface V2 协议规范）
  */
 export const SUPPORTED_LANGUAGES = {
-  'ru-RU': { interfaceKey: 'ru_ru' },
   'zh-CN': { interfaceKey: 'zh_cn' },
   'zh-TW': { interfaceKey: 'zh_tw' },
   'en-US': { interfaceKey: 'en_us' },
@@ -79,7 +78,6 @@ export const getStoredLanguagePreference = (): LanguagePreference | null => {
 };
 
 const resources = {
-  'ru-RU': { translation: ruRU },
   'zh-CN': { translation: zhCN },
   'zh-TW': { translation: zhTW },
   'en-US': { translation: enUS },
